@@ -1,0 +1,21 @@
+📘 Basic Syntax
+Feature	Markdown Syntax	Example
+Headings	# H1, ## H2, ..., ###### H6	## Section Title
+Bold	**bold text**	bold text
+Italic	*italic text*	italic text
+Bold + Italic	***both***	both
+Strikethrough	~~text~~	text
+Inline code	`code`	code
+Code blocks	```code``` or indent with 4 spaces	<pre>```js<br>console.log('hi')<br>```</pre> 
+
+Blockquote	> quote	> quote
+Unordered list	- item or * item	- item
+Ordered list	1. item	1. item
+Horizontal rule	---	———
+Link	[text](https://...)	Example
+Image	![alt](image.jpg)	
+Table	Pipe & dash cols	See example below
+
+markdown
+Copy
+Edit
