@@ -1,0 +1,6 @@
+my-first-plugin/
+├── my-first-plugin.php
+├── includes/
+│   └── message-function.php
+└── assets/
+    └── style.css
