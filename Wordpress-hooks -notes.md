@@ -1,6 +1,8 @@
 # Wordpress Hooks
 ### Hooks allow your code to connect into WordPress at specific points without editing core files. They're categorized into two types: Actions and Filters. 
 *NOTE “Filters require returning a value, actions do not.”* 
+*ACTION is used when something we need add or create And FILTER is used when beed to do changes in existing thing in website*
+
 # Action hook
 ### An Action is a hook point in WordPress where you can run custom code at specific moments during execution—like when a post is published or when the footer is output
 
@@ -33,4 +35,5 @@ add_filter( 'excerpt_length', 'my_excerpt_length' );
 ### “Action is 1‑way … no outcomes. Filter is 2‑ways, send and return the outcomes.” 
 * Use Action Hooks when you want to execute something but don’t need to alter return data.
 * Use Filter Hooks when you want to intercept and modify data, returning the final version.
+
 
