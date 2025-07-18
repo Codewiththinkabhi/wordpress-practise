@@ -1,4 +1,4 @@
-# Wordpress Hooks
+#  what are Wordpress Hooks
 ### Hooks allow your code to connect into WordPress at specific points without editing core files. They're categorized into two types: Actions and Filters. 
 *NOTE “Filters require returning a value, actions do not.”* 
 *ACTION is used when something we need add or create And FILTER is used when beed to do changes in existing thing in website*
